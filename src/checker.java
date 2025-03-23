@@ -80,8 +80,8 @@ public class checker {
             if(AtomCounter == 0) isWFF = false;
 
             //output
-            if (isWFF) System.out.println(s + " is a WFF");
-            else       System.out.println(s + " is not a WFF");
+            if(isWFF) System.out.println("false");
+            else      System.out.println("true");
 
         }
 
