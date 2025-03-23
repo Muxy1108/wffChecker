@@ -36,7 +36,7 @@ public class checker {
         3 : parentheses
         */
 
-            if(s.charAt(0) != '(' || s.charAt(s.length() - 1) != ')') {
+            if(s.charAt(0) != '(' || s.charAt(s.length() - 1) != ')' && s.length() > 2) {
                 isWFF = false;
             }
             if(isWFF){
